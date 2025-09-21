@@ -18,7 +18,11 @@ public class PooTestingPrincipal {
      */
     public static void main(String[] args) {
         cuentaBancaria cb = new cuentaBancaria();
-        cb.
+        cb.mostrarDatos();
+        cb.setAlias("miAlias");
+        System.out.println(cb);
+        
+        
         
         
     }
